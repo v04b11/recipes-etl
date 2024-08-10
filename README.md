@@ -16,11 +16,11 @@ The **Recipes ETL** project performs ETL (Extract, Transform, Load) operations o
 - Loads the filtered dataset into a single CSV file for easy access.
 
 ## Requirements
-- **Python 3.x**: Ensure you have Python installed.
+- **Python 3.11.4**: Ensure you have Python installed.
 - **Java**: PySpark requires Java to be installed on your machine.
 - **PySpark**: This project uses PySpark for data processing.
 
-## ## Installation
+## Installation
 1. Clone this repository:
     ```bash
     git clone <https://github.com/v04b11/recipes-etl.git>
