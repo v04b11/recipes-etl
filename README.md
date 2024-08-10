@@ -31,7 +31,17 @@ The **Recipes ETL** project performs ETL (Extract, Transform, Load) operations o
     ```bash
     git clone https://github.com/v04b11/recipes-etl.git
     cd recipes-etl
-3.  Install the required Python packages:
+3. (Recommended) Create and activate a virtual environment:
+- On macOS/Linux:
+   ```bash
+   python3 -m venv env
+   source env/bin/activate
+- On Windows:
+   ```bash
+   python -m venv env
+   .\env\Scripts\activate
+
+4.  Install the required Python packages:
     ```bash
     pip install -r requirements.txt
 
