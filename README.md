@@ -23,7 +23,7 @@ The **Recipes ETL** project performs ETL (Extract, Transform, Load) operations o
 ## Installation
 1. Clone this repository:
     ```bash
-    git clone <https://github.com/v04b11/recipes-etl.git>
+    git clone https://github.com/v04b11/recipes-etl.git
     cd recipes-etl
 2.  Install the required Python packages:
     ```bash
