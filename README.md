@@ -17,15 +17,21 @@ The **Recipes ETL** project performs ETL (Extract, Transform, Load) operations o
 
 ## Requirements
 - **Python 3.11.4**: Ensure you have Python installed.
-- **Java**: PySpark requires Java to be installed on your machine.
+- **Java**: PySpark requires Java to be installed on your machine. You can install it via:
+  ```bash
+  sudo apt-get install default-jdk  # for Ubuntu/Debian
+  brew install openjdk  # for macOS
 - **PySpark**: This project uses PySpark for data processing.
 
 ## Installation
-1. Clone this repository:
+1. Ensure you have Python 3.11.4 installed:
+    ```bash
+    python --version
+2. Clone this repository:
     ```bash
     git clone https://github.com/v04b11/recipes-etl.git
     cd recipes-etl
-2.  Install the required Python packages:
+3.  Install the required Python packages:
     ```bash
     pip install -r requirements.txt
 
